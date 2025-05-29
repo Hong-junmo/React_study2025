@@ -1,5 +1,5 @@
-// import { useState } from "react"
 import React from 'react'
+import "./App";
 
 const App2 = () => {
     let name = prompt("너의 이름은?");
@@ -23,6 +23,7 @@ const App2 = () => {
     } else if (Month === 12 || Month <=2) {
         month = "겨울"
     }
+
   return (
     <div>
         <h1>{date}</h1><hr/>
