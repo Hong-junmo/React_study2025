@@ -2,6 +2,9 @@ import './App.css'
 import Menubox from './components/Menubox'
 import MemberInfo from "./components/MemberInfo";
 import Count from './components/Count';
+import LikeCount from './components/LikeCount';
+import LikeCount2 from './components/LikeCount2';
+import BattleNumber from './components/BattleNumber';
 
 /* 
   1.Component(컴포넌트)
@@ -38,7 +41,12 @@ function App() {
 
       {/* 실습) 야구팀 대표 투수 정보(야구팀명, 투수명) 출력해보기 */}
       {/* <MemberInfo/> */}
-      <Count/>
+      {/* <Count/> */}
+
+      {/* state 실습2 */}
+      {/* <LikeCount/> */}
+      {/* <LikeCount2/> */}
+      <BattleNumber/>
     </>
   )
 }
